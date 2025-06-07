@@ -1,6 +1,7 @@
 import openai
 import time
 import traceback
+from dotenv import load_dotenv
 
 openai.api_key = 'YOUR_OPENAI_API_KEY'
 
